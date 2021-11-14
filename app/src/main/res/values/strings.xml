@@ -2,8 +2,9 @@
     <string name="app_name">Santander Travel</string>
     <string name="hola_mundo">Hola mundo</string>
     <string name="nombre">Centro Comercial Cacique</string>
-    <string name="informacion_general">" El Centro Comercial Cacique, cuenta con los más altos estándares de calidad, situado al sur oriente de la ciudad con 158.000 metros cuadrados de construcción, 273 locales comerciales en cuatro (4) niveles y 1.600 estacionamientos. Es un lugar para el encuentro, las compras, la diversión y comodidad. NO sólo es el complejo comercial más grande del Oriente Colombiano, sino que se sitúa entre los cinco (5) más grandes del país. "</string>
+    <string name="informacion_general">El Centro Comercial Cacique, cuenta con los más altos estándares de calidad, situado al sur oriente de la ciudad con 158.000 metros cuadrados de construcción, 273 locales comerciales en cuatro (4) niveles y 1.600 estacionamientos. Es un lugar para el encuentro, las compras, la diversión y comodidad. NO sólo es el complejo comercial más grande del Oriente Colombiano, sino que se sitúa entre los cinco (5) más grandes del país.</string>
     <string name="ubicacion">Transversal 93 N° 34  99 El Tejar</string>
     <string name="temperatura">20 -25 °c</string>
     <string name="sitios_recomendados">Sitios recomendados</string>
+    <string name="sitio_img">Centro Comercial Cacique Imagen</string>
 </resources>
