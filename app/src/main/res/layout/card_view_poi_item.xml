@@ -3,9 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:elevation="4dp"
-    app:circularflow_radiusInDP="10dp">
+    android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
@@ -23,17 +21,18 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/picture_image_view"
                 android:layout_width="125dp"
                 android:layout_height="125dp"
                 android:contentDescription="@null"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="ImageContrastCheck"
-                tools:srcCompat="@tools:sample/avatars" />
+                app:srcCompat="@drawable/san_pio" />
 
             <TextView
                 android:id="@+id/name_poi_text_view"
