@@ -32,7 +32,7 @@ class PoisAdapter(private val poiList: ArrayList<Poi>) :
         fun bind(poi: Poi) {
             namePoiTextView.text = poi.name
             shortDetailPoiTextView.text = poi.shortDetail
-            //punctuationPoiTextView.text.toString().toInt() = poi.punctuation   → Hay un error al querer convertir a Int
+            punctuationPoiTextView.text = poi.punctuation.toString()
             Picasso.get().load(poi.urlPicture).into(pictureImageView);
             //pictureImageView
         }

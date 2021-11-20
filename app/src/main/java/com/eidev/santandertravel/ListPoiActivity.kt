@@ -32,7 +32,7 @@ class ListPoiActivity : AppCompatActivity() {
                 name = "test",
                 shortDetail = "test",
                 punctuation = 5,
-                urlPicture = "https://www.vanguardia.com/binrepository/716x477/0c0/0d0/none/12204/ITOC/web_ecolo001_big_ce_VL142422_MG22138284.jpg"
+                urlPicture = "https://i.ytimg.com/vi/cS11tYGoZFs/maxresdefault.jpg"
             ),
             Poi(
                 name = "test",
@@ -44,7 +44,7 @@ class ListPoiActivity : AppCompatActivity() {
                 name = "test",
                 shortDetail = "test",
                 punctuation = 5,
-                urlPicture = "https://www.vanguardia.com/binrepository/716x477/0c0/0d0/none/12204/ITOC/web_ecolo001_big_ce_VL142422_MG22138284.jpg"
+                urlPicture = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/481px-Cat03.jpg"
             ),
             Poi(
                 name = "test",
