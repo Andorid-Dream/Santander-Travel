@@ -1,0 +1,71 @@
+[
+    {
+        "name" : "Barichara",
+        "shortDetail" : " Si quieres hacer un viaje para estar tranquilo y en silencio, visita Barichara, considerado el pueblo más lindo de Colombia, que se destaca por sus blancas casas coloniales, su iglesia, calles empedradas y sin ningún poste de luz que se interponga en una buena foto.",
+        "score" : "5",
+        "urlPicture" : "https://www.google.es/imgres?imgurl=https%3A%2F%2Flp-cms-production.imgix.net%2F2019-06%2F4927d3c30c2daf6a57d0ba6ff4aed694-barichara.jpg"
+
+    },
+    {
+        "name" : "Centro Comercial Cacique",
+        "shortDetail" : " Cacique, El Centro Comercial más grande del Oriente Colombiano. Las mejores marcas en un solo lugar, 273 locales comerciales en cuatro niveles.",
+        "score" : "5",
+        "urlPicture" : "https://i.pinimg.com/originals/6f/8f/ba/6f8fbabc140e6d75e91c0b900b952a89.jpg"
+    },
+    {
+        "name" : "Ecoparque Cerro el Santísimo",
+        "shortDetail" : " Parque en el que convergen la ciudad y la naturaleza, además de ser un mirador del cual se puede apreciar toda el área metropolitana.",
+        "score" : "5",
+        "urlPicture" : "https://64.media.tumblr.com/893179dbad7f98eb60e96a56b8d6e84a/tumblr_o0p7dmrdul1uykl3xo1_1280.jpg"
+
+    },
+    {
+        "name" : " Jardín botánico Eloy Valenzuela ",
+        "shortDetail" : "Es una aventura que no tiene riesgo alguno y, por el contrario, transmite tranquilidad y sosiego, es para muchos niños y adultos un paseo inolvidable.",
+        "score" : "5",
+        "urlPicture": "https://www.viajaporcolombia.com/images/jardin-botanico-eloy-valenzuela.jpg"
+
+    },
+    {
+        "name" : " La mesa de los Santos",
+        "shortDetail" : " Sitio ideal para practicar el parapente, ciclismo, caminatas, rappel o simplemente para descansar y disfrutar el paisaje.",
+        "score" : "5",
+        "urlPicture" : "https://farm8.staticflickr.com/7141/13900361874_a2865974a7_c.jpg"
+
+    },
+    {
+        "name" : " Parque Acuático Acualago ",
+        "shortDetail" : " Acualago es el primer y más grande parque acuático del Oriente Colombiano.",
+        "score" : "5",
+        "urlPicture" : "https://www.vanguardia.com/binrepository/716x477/0c0/0d0/none/12204/HKQT/acualago_esta_cerrado_que_pasara_ahora_con_el_parque_VL393263_MG18035832.jpg"
+    },
+    {
+        "name" : " Parque Chicamocha ",
+        "shortDetail" : " Es uno de los pocos parques naturales de Colombia dedicados al ecoturismo, siendo por tanto uno de los sitios turísticos más importantes del país.",
+        "score" : "5",
+        "urlPicture" : "https://cr00.epimg.net/radio/imagenes/2019/11/20/bucaramanga/1574269390_083470_1574269597_noticia_normal.jpg"
+    },
+    {
+        "name" : " Parque Natural el Gallineral ",
+        "shortDetail" : " Conoce un Parque Natural dentro de un perímetro urbano. Bosque cubierto de musgo, rutas y piragüismo.",
+        "score" : "5",
+        "urlPicture" : "https://sangilextremo.com.co/pro/wp-content/uploads/2020/01/parque-el-gallineral-san-gil-4.jpg"
+
+    },
+    {
+        "name" : "Parque San Pío",
+        "shortDetail" : " Este parque también es un centro de cultura allí se le da vida cada año durante las ferias de Bucaramanga a un evento organizado por la alcaldía llamado Puro Sabor Social.",
+        "score" : "5",
+        "urlPicture" : "https://s2.wklcdn.com/image_253/7595935/60386833/40253435Master.jpg"
+
+    },
+    {
+        "name" : "Quebrada Las Gachas",
+        "shortDetail" : " Las Gachas de Guadalupe se conocen también como “Caño Cristales” de Santander, es un lugar en el que podrá disfrutar de un maravilloso paisaje y relajarse en las aguas de lo que pareciera un jacuzzi natural.",
+        "score" : "5",
+        "urlPicture" : "https://chipviajero.com/wp-content/uploads/2018/08/Como-Llegar-a-las-Gachas-de-Guadalupe-Santander-Chip-Viajero-3.jpg"
+
+    }
+
+
+]
