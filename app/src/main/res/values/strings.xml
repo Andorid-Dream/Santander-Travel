@@ -61,4 +61,7 @@
     <string name="temperatura"> Temperatura: </string>
     <string name="sitios_recomendados">Sitios recomendados</string>
     <string name="descripcion">Descripcion</string>
+    <string name="Puntuacion">Puntuacion</string>
+    <string name="Bienvenida">Bienvenido a Santander Travel</string>
+    <string name="Bienvenida_texto">En la siguiente lista encontraras una gran cantidad de sitios turisticos que embarcan todo Santander. Conoce, aprende y disfruta mucho de esta experiencia. </string>
 </resources>
