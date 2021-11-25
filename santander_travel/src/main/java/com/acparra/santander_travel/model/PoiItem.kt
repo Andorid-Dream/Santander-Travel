@@ -1,5 +1,6 @@
 package com.acparra.santander_travel.model
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class PoiItem(
     @SerializedName("name")
@@ -10,4 +11,4 @@ data class PoiItem(
     val shortDetail: String,
     @SerializedName("urlPicture")
     val urlPicture: String
-)
+) : Serializable

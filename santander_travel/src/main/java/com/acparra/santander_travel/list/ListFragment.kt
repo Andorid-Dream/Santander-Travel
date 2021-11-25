@@ -5,9 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.acparra.santander_travel.R
 import com.acparra.santander_travel.databinding.FragmentListBinding
 import com.acparra.santander_travel.model.Poi
 import com.acparra.santander_travel.model.PoiItem
@@ -34,7 +33,7 @@ class ListFragment : Fragment() {
 
         listPois = loadPoisFromJSON()
 
-        poisAdapter = PoisAdapter(listPois)
+        poisAdapter = PoisAdapter(listPois, onItemClicked = {onPoiClicked(it)})
         listBinding.poisRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = poisAdapter
@@ -52,6 +51,6 @@ class ListFragment : Fragment() {
     }
 
     private fun onPoiClicked(poi: PoiItem){
-
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(poi = poi))
     }
 }
