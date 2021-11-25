@@ -34,7 +34,7 @@
                 <ImageView
                     android:id="@+id/picture_image_view"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:adjustViewBounds="true"
                     android:contentDescription="@null"
 
@@ -46,7 +46,7 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
                     app:layout_constraintWidth_min="125dp"
-                    app:srcCompat="@drawable/san_pio" />
+                    app:srcCompat="@drawable/centro_comercial_cacique" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -100,8 +100,8 @@
                     android:scaleX="1"
                     android:scaleY="1"
 
-                    android:progressTint="@color/red"
-                    android:progressBackgroundTint="@color/orangered"
+                    android:progressTint="@color/teal_700"
+                    android:progressBackgroundTint="@color/black"
 
                     android:transformPivotX="0dp"
                     app:layout_constraintBottom_toBottomOf="parent"

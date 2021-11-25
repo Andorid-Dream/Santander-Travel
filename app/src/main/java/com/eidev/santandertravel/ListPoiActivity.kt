@@ -38,5 +38,8 @@ class ListPoiActivity : AppCompatActivity() {
         return info
     }
 
+    private fun onPoiClicked(poi: PoiItem){
+
+    }
 
 }

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Santander Travel</string>
+
+    <string-array name="sitios_turisticos">
+
+        <!--0 / 6 -->
+        <item> CENTRO COMERCIAL CACIQUE </item>
+        <item> El Centro Comercial Cacique, cuenta con los más altos estándares de calidad, situado al sur oriente de la ciudad con 158.000 metros cuadrados de construcción, 273 locales comerciales en cuatro (4) niveles y 1.600 estacionamientos. Es un lugar para el encuentro, las compras, la diversión y comodidad. NO sólo es el complejo comercial más grande del Oriente Colombiano, sino que se sitúa entre los cinco (5) más grandes del país. </item>
+        <item> Transversal 93 N° 34  99 El Tejar </item>
+        <item> 20 -25 °c </item>
+        <item> Entre sus tiendas de ropa, calzado, tecnología, oficinas bancarias, cine y los diferentes lugares ubicados en las instalaciones de la mayoría de centros comerciales, en el Cacique, se destacan algunas zonas por su particularidad y belleza.
+            \n<b>Terraza</b>: Ubicada en el cuarto nivel, la terraza es un espacio que goza de un ambiente tranquilo rodeado por plantas y árboles desde el cual tienes una vista amplia y hermosa de la ciudad.
+            \nMall de comidas: La particularidad de este mall de comidas, es que se puede disfrutar de una vista de la ciudad diferente a la que ofrece la terraza ubicada en el cuarto nivel.
+            \nHotel Holiday Inn: Es una moderna torre de 18 pisos con vista panorámica hacia la ciudad, ubicado junto a Cacique El Centro Comercial. Puede relajarse en una de las modernas y amplias habitaciones o bien hospedarse en una suite con ventanas del piso al techo.
+        </item>
+        <item> Centro Comercial Cacique Imagen </item>
+        <item> centro_comercial_cacique </item>
+
+        <!--7 / 13 -->
+        <item> PARQUE ACUATICO ACUALAGO </item>
+        <item> Acualago es el parque acuático más grande del Oriente Colombiano, único por sus atracciones y por su reserva natural, con capacidad de aforo para 5.000 visitantes, ubicado en el corazón del Área Metropolitana de Bucaramanga.
+        Se puede disfrutar de un día completo en las diferentes actividades y atractivos que ofrece el parque como son: las piscinas, áreas verdes, juegos infantiles, toboganes, lago, etc.
+        </item>
+        <item> Calle 29 No. 10 &#8211; 13 Lagos II  </item>
+        <item> 20 -25 °c </item>
+        <item> Acuamuseo, Lago, El rio, Toboganes </item>
+        <item> Parque Acuatico Acualago Imagen </item>
+        <item> acualago </item>
+
+        <!--14 / 20 -->
+        <item> PARQUE SAN PIO </item>
+        <item> Su inauguración se dio el 20 de julio de 1964 en memoria a Guillermo Sorzano Gonzales y aunque el municipio aún no era el propietario 5 años después la Urbanizadora de Don David Puyana lo donó.
+        \nEn este parque se reúnen muchos jóvenes, enamorados y familias disfrutan de este parque en gran manera su gran espacio lo hace un lugar perfecto para tomar un break, sacar a su mascota, pasarla en familia, hacer un picnic en fin muchas cosas. Este parque también es un centro de cultura allí se le da vida cada año en septiembre cuando son las ferias de Bucaramanga a un evento organizado por la alcaldía llamado Puro Sabor Social el cual consiste en muestras gastronómicas nacionales e internacionales el parque se llena completamente de estantes gastronómicos donde podrás disfrutar de los diferentes tipos de comida del mundo y de la región; No solo es cultura también es deporte ya que tiene dos canchas en la parte superior y la gente que vive alrededor sale desde muy temprano a hacer aerobics o caminar por sus amplios senderos, cuenta con un gimnasio al aire libre con máquinas para hacer pierna abdominales bíceps tríceps, etc.
+        </item>
+        <item> Transversal 93 N° 34  99 El Tejar. </item>
+        <item> 22°C </item>
+        <item> Pendiente </item>
+        <item> Parque San Pio Imagen </item>
+        <item> san_pio </item>
+
+        <!--21 / 27 -->
+        <item> PARQUE CHICAMOCHA</item>
+        <item> A una hora y media por tierra al norte desde Socorro, en la vía hacia Bucaramanga, está el Parque Nacional del Chicamocha (Panachi), un parque temático y ecológico, donde los visitantes encuentran, entre otras cosas, espacios con cabras y avestruces, el Monumento a la Santandereanidad y la opción de montar en cable vuelo. El parque tiene un teleférico de 6,3 km que cruza el cañón del río Chicamocha.  </item>
+        <item> Aratoca, Km. 54 Via Bucaramanga - San Gil, Bucaramanga, Santander </item>
+        <item> 25°C – 26°C</item>
+        <item> - Avestruzca
+            \n- Cable vuelo
+            \n- Parapente
+            \n- Teleférico
+            \n- Torrentismo
+        </item>
+        <item> Parque Nacional Chicamocha Imagen </item>
+        <item> chicamocha </item>
+
+
+    </string-array>
+
+    <string name="nombre"> Nombre del sitio turistico </string>
+    <string name="informacion"> Informacion del sitio turistico </string>
+    <string name="ubicacion"> Ubicacion: </string>
+    <string name="temperatura"> Temperatura: </string>
+    <string name="sitios_recomendados">Sitios recomendados</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="Puntuacion">Puntuacion</string>
+    <string name="Bienvenida">Bienvenido a Santander Travel</string>
+    <string name="Bienvenida_texto">En la siguiente lista encontraras una gran cantidad de sitios turisticos que embarcan todo Santander. Conoce, aprende y disfruta mucho de esta experiencia. </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
