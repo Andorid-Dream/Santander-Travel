@@ -6,8 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.acparra.santander_travel.R
 import com.acparra.santander_travel.databinding.FragmentListBinding
 import com.acparra.santander_travel.model.Poi
 import com.acparra.santander_travel.model.PoiItem
