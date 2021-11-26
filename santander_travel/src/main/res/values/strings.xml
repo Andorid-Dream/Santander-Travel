@@ -57,9 +57,12 @@
 
     <string name="nombre"> Nombre del sitio turistico </string>
     <string name="informacion"> Informacion del sitio turistico </string>
-    <string name="ubicacion"> Ubicacion: </string>
+    <string name="latitud"> Latitud: </string>
+    <string name="longitud"> Longitud: </string>
+    <string name="latitud_sitio"> Latitud </string>
+    <string name="longitud_sitio"> Longitud </string>
     <string name="temperatura"> Temperatura: </string>
-    <string name="sitios_recomendados">Sitios recomendados</string>
+    <string name="sitios_recomendados"> Sitios recomendados: </string>
     <string name="descripcion">Descripcion</string>
     <string name="Puntuacion">Puntuacion</string>
     <string name="Bienvenida">Bienvenido a Santander Travel</string>

@@ -11,6 +11,26 @@
         tools:context=".MainActivity">
 
 
+        <TextView
+            android:id="@+id/longitud"
+            style="@style/Texto_subtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:text="@string/longitud"
+            app:layout_constraintStart_toEndOf="@+id/sitio_latitud"
+            app:layout_constraintTop_toTopOf="@+id/latitud" />
+
+        <TextView
+            android:id="@+id/sitio_longitud"
+            style="@style/Texto_Normal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/longitud_sitio"
+            app:layout_constraintStart_toEndOf="@+id/longitud"
+            app:layout_constraintTop_toTopOf="@+id/sitio_latitud" />
+
         <ImageView
             android:id="@+id/sitio_imagen"
             android:layout_width="match_parent"
@@ -50,28 +70,24 @@
             app:layout_constraintTop_toBottomOf="@+id/sitio_nombre" />
 
         <TextView
-            android:id="@+id/sitio_ubicacion"
+            android:id="@+id/sitio_latitud"
             style="@style/Texto_Normal"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="3dp"
-            android:layout_marginEnd="16dp"
-            android:text="@string/ubicacion"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/ubicacion"
-            app:layout_constraintTop_toTopOf="@+id/ubicacion" />
-        //
+            android:text="@string/latitud_sitio"
+            app:layout_constraintStart_toEndOf="@+id/latitud"
+            app:layout_constraintTop_toTopOf="@+id/latitud" />
 
         <TextView
-            android:id="@+id/ubicacion"
+            android:id="@+id/latitud"
             style="@style/Texto_subtitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="12dp"
-            android:text="@string/ubicacion"
+            android:text="@string/latitud"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sitio_informacion" />
 
@@ -84,7 +100,7 @@
             android:layout_marginTop="16dp"
             android:text="@string/temperatura"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ubicacion" />
+            app:layout_constraintTop_toBottomOf="@+id/latitud" />
 
         <TextView
             android:id="@+id/sitio_temperatura"
@@ -102,11 +118,15 @@
         <TextView
             android:id="@+id/sitios_recomendados_sitio"
             style="@style/Texto_Normal"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
             android:text="@string/sitios_recomendados"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sitios_recomendados" />
 
