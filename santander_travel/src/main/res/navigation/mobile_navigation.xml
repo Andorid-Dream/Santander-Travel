@@ -15,7 +15,7 @@
             app:destination="@id/navigation_detail" />
         <action
             android:id="@+id/action_navigation_list_to_settingsFragment"
-            app:destination="@id/settingsFragment" />
+            app:destination="@id/navigation_preference" />
     </fragment>
     <fragment
         android:id="@+id/navigation_detail"
@@ -26,7 +26,7 @@
             app:argType="com.acparra.santander_travel.model.PoiItem" />
     </fragment>
     <fragment
-        android:id="@+id/settingsFragment"
+        android:id="@+id/navigation_preference"
         android:name="com.acparra.santander_travel.preference.SettingsFragment"
         android:label="SettingsFragment" />
 </navigation>
