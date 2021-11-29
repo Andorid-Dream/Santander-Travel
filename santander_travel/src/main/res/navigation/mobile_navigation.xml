@@ -20,7 +20,8 @@
     <fragment
         android:id="@+id/navigation_detail"
         android:name="com.acparra.santander_travel.detail.DetailFragment"
-        android:label="DetailFragment" >
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail">
         <argument
             android:name="poi"
             app:argType="com.acparra.santander_travel.model.PoiItem" />
