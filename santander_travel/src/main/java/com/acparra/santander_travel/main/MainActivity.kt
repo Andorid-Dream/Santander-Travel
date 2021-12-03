@@ -46,12 +46,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun showIcon(){
-        val action : ActionBar? = supportActionBar
+        val actionBar : ActionBar? = supportActionBar
         actionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
     fun hideIcon(){
-       val action : ActionBar? = supportActionBar
+       val actionBar : ActionBar? = supportActionBar
         actionBar?.setDisplayHomeAsUpEnabled(false)
     }
 }
