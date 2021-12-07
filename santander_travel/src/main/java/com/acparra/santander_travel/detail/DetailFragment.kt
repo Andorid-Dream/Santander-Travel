@@ -4,6 +4,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.acparra.santander_travel.databinding.FragmentDetailBinding
 import com.acparra.santander_travel.main.MainActivity
@@ -29,7 +30,7 @@ class DetailFragment : Fragment() {
         return detailBinding.root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view:View,  savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val sitio = args.poi
 
@@ -41,6 +42,11 @@ class DetailFragment : Fragment() {
             sitioTemperatura.text = sitio.temperature.toString()
             sitiosRecomendadosSitio.text = sitio.recommendedSites
             Picasso.get().load(sitio.urlPicture).into(sitioImagen)
+
+
+            mapButton.setOnClickListener(){
+                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment())
+            }
         }
     }
 }
