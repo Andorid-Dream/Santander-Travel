@@ -37,8 +37,6 @@ class DetailFragment : Fragment() {
         with(detailBinding){
             sitioNombre.text = sitio.name
             sitioInformacion.text = sitio.generalInformation
-            sitioLongitud.text = sitio.longitude.toString()
-            sitioLatitud.text = sitio.latitude.toString()
             sitioTemperatura.text = sitio.temperature.toString()
             sitiosRecomendadosSitio.text = sitio.recommendedSites
             Picasso.get().load(sitio.urlPicture).into(sitioImagen)
