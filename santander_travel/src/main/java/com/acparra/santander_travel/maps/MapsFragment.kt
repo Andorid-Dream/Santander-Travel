@@ -6,7 +6,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.navArgs
 import com.acparra.santander_travel.R
+import com.acparra.santander_travel.detail.DetailFragmentArgs
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -15,6 +17,8 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 
 class MapsFragment : Fragment() {
+
+    private val args: DetailFragmentArgs by navArgs()
 
     private val callback = OnMapReadyCallback { googleMap ->
         /**
@@ -26,12 +30,14 @@ class MapsFragment : Fragment() {
          * install it inside the SupportMapFragment. This method will only be triggered once the
          * user has installed Google Play services and returned to the app.
          */
-        val barichara = LatLng(6.6358601, -73.2277859)
+
+        val sitio = args.poi
+        val position = LatLng(sitio.latitude, sitio.longitude)
         googleMap.addMarker(MarkerOptions()
-            .position(barichara)
-            .title("Barichara")
-            .snippet("puntaje"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(barichara, 15F))
+            .position(position)
+            .title(sitio.name)
+            .snippet(sitio.score))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(position, 15F))
     }
 
     override fun onCreateView(

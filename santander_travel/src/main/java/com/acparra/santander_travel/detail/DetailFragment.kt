@@ -43,7 +43,7 @@ class DetailFragment : Fragment() {
 
 
             mapButton.setOnClickListener(){
-                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment())
+                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment(poi = sitio))
             }
         }
     }
