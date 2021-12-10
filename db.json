@@ -65,50 +65,6 @@
       "longitude": -73.1039655,
       "temperature": 0,
       "recommendedSites": "Acuamuseo - Lago - El rio - Toboganes"
-    },
-    {
-      "name": "Parque Chicamocha",
-      "shortDetail": " Es uno de los pocos parques naturales de Colombia dedicados al ecoturismo, siendo por tanto uno de los sitios turísticos más importantes del país.",
-      "score": "2.5",
-      "urlPicture": "https://cr00.epimg.net/radio/imagenes/2019/11/20/bucaramanga/1574269390_083470_1574269597_noticia_normal.jpg",
-      "generalInformation": "A una hora y media por tierra al norte desde Socorro, en la vía hacia Bucaramanga, está el Parque Nacional del Chicamocha (Panachi), un parque temático y ecológico, donde los visitantes encuentran, entre otras cosas, espacios con cabras y avestruces, el Monumento a la Santandereanidad y la opción de montar en cable vuelo. El parque tiene un teleférico de 6,3 km que cruza el cañón del río Chicamocha. ",
-      "latitude": 6.7140707,
-      "longitude": -73.2708374,
-      "temperature": 0,
-      "recommendedSites": "Avestruzca - Cable vuelo - Parapente - Teleférico - Torrentismo"
-    },
-    {
-      "name": "Parque Natural el Gallineral",
-      "shortDetail": " Conoce un Parque Natural dentro de un perímetro urbano. Bosque cubierto de musgo, rutas y piragüismo.",
-      "score": "2",
-      "urlPicture": "https://sangilextremo.com.co/pro/wp-content/uploads/2020/01/parque-el-gallineral-san-gil-4.jpg",
-      "generalInformation": "Es una Bella Isla que forman dos brazos de la quebrada Curití en la junta con el Rio Fonce, tiene una extensión de cuatro hectáreas donde sus bellos árboles con musgos colgantes. Crean un paraíso lleno de paisajes exóticos. La vegetación con heliconias y otras flores silvestres, los caminos empedrados y puentes coloniales invitan al visitante a caminar y disfrutar de su ambiente fresco y romántico.",
-      "latitude": 6.5508136,
-      "longitude": -73.1305198,
-      "temperature": 0,
-      "recommendedSites": "En la Playita de la Piedra del Pato también se puede disfrutar del Gallineral, es el mirador donde se ven los navegantes pasar en los botes viviendo la aventura del rafting. Localizados a las afueras de la población también se puede disfrutar del Pozo Azul y una serie de cuevas como La Antigua y El Alumbre."
-    },
-    {
-      "name": "Parque San Pío",
-      "shortDetail": "Este parque también es un centro de cultura allí se le da vida cada año durante las ferias de Bucaramanga a un evento organizado por la alcaldía llamado Puro Sabor Social.",
-      "score": "1.5",
-      "urlPicture": "https://s2.wklcdn.com/image_253/7595935/60386833/40253435Master.jpg",
-      "generalInformation": "En este parque se reúnen muchos jóvenes, enamorados y familias disfrutan de este parque en gran manera su gran espacio lo hace un lugar perfecto para tomar un break, sacar a su mascota, pasarla en familia, hacer un picnic en fin muchas cosas. Este parque también es un centro de cultura allí se le da vida cada año en septiembre cuando son las ferias de Bucaramanga a un evento organizado por la alcaldía llamado Puro Sabor Social el cual consiste en muestras gastronómicas nacionales e internacionales el parque se llena completamente de estantes gastronómicos donde podrás disfrutar de los diferentes tipos de comida del mundo y de la región; No solo es cultura también es deporte ya que tiene dos canchas en la parte superior y la gente que vive alrededor sale desde muy temprano a hacer aerobics o caminar por sus amplios senderos, cuenta con un gimnasio al aire libre con máquinas para hacer pierna abdominales bíceps tríceps, etc.",
-      "latitude": 7.1129708,
-      "longitude": -73.1322015,
-      "temperature": 0,
-      "recommendedSites": ""
-    },
-    {
-      "name": "Quebrada Las Gachas",
-      "shortDetail": "Las Gachas de Guadalupe se conocen también como “Caño Cristales” de Santander, es un lugar en el que podrá disfrutar de un maravilloso paisaje y relajarse en las aguas de lo que pareciera un jacuzzi natural.",
-      "score": "1",
-      "urlPicture": "https://chipviajero.com/wp-content/uploads/2018/08/Como-Llegar-a-las-Gachas-de-Guadalupe-Santander-Chip-Viajero-3.jpg",
-      "generalInformation": "Las gachas son unos Jacuzzis Naturales, donde podrás sumergirte y relajarte. Además, lo sorprendente es que unos son calientes y al lado hay otros muy fríos. Es un lugar con misterios de la naturaleza y perfecto para explorar una zona de Santander poco conocida.",
-      "latitude": 6.2157127,
-      "longitude": -73.4109014,
-      "temperature": 0,
-      "recommendedSites": "La piedra del sapo - Cueva del verraco - Pozo la gloria - El salitre - Cascada la chorrera "
     }
   ]
 }
