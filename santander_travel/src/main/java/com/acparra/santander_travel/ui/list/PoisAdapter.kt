@@ -1,4 +1,4 @@
-package com.acparra.santander_travel.list
+package com.acparra.santander_travel.ui.list
 
 import android.view.LayoutInflater
 import android.view.View
@@ -31,12 +31,6 @@ class PoisAdapter(
     }
 
     override fun getItemCount(): Int = poisList.size
-
-    fun appendItems(newItems: ArrayList<PoiItem>) {
-        poisList.clear()
-        poisList.addAll(newItems)
-        notifyDataSetChanged()
-    }
 
     class poiViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private var namePoiTextView: TextView = itemView.findViewById(R.id.name_poi_text_view)

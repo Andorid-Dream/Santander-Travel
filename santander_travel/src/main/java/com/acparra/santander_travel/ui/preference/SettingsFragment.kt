@@ -1,11 +1,11 @@
-package com.acparra.santander_travel.preference
+package com.acparra.santander_travel.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.acparra.santander_travel.R
-import com.acparra.santander_travel.main.MainActivity
+import com.acparra.santander_travel.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

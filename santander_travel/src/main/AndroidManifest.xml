@@ -34,16 +34,16 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".drawer.DrawerActivity"
+            android:name="com.acparra.santander_travel.ui.drawer.DrawerActivity"
             android:exported="true"
             android:label="@string/title_activity_drawer"
             android:theme="@style/NoActionBar"></activity>
         <activity
-            android:name=".bottom.BottomActivity"
+            android:name="com.acparra.santander_travel.ui.bottom.BottomActivity"
             android:exported="true"
             android:label="@string/title_activity_bottom"></activity>
         <activity
-            android:name=".main.MainActivity"
+            android:name="com.acparra.santander_travel.ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

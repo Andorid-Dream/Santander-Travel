@@ -1,4 +1,4 @@
-package com.acparra.santander_travel.main
+package com.acparra.santander_travel.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.acparra.santander_travel.R
-import com.acparra.santander_travel.preference.SettingsFragment
+import com.acparra.santander_travel.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

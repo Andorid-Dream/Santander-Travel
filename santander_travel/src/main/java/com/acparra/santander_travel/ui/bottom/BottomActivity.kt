@@ -1,4 +1,4 @@
-package com.acparra.santander_travel.bottom
+package com.acparra.santander_travel.ui.bottom
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView

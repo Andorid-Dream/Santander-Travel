@@ -1,19 +1,15 @@
-package com.acparra.santander_travel.detail
+package com.acparra.santander_travel.ui.detail
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.viewModels
-import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.acparra.santander_travel.databinding.FragmentDetailBinding
-import com.acparra.santander_travel.main.MainActivity
-import com.squareup.picasso.Picasso
+import com.acparra.santander_travel.ui.main.MainActivity
 
 class DetailFragment : Fragment() {
 
-    private val detailViewModel: DetailViewModel by viewModels()
     private lateinit var detailBinding: FragmentDetailBinding
     private val args: DetailFragmentArgs by navArgs()
 
