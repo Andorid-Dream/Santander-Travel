@@ -1,4 +1,4 @@
-package com.acparra.santander_travel.list
+package com.acparra.santander_travel.ui.list
 
 import android.view.LayoutInflater
 import android.view.View

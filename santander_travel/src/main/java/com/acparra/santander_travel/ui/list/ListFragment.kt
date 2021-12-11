@@ -1,4 +1,4 @@
-package com.acparra.santander_travel.list
+package com.acparra.santander_travel.ui.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,7 +9,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.acparra.santander_travel.databinding.FragmentListBinding
-import com.acparra.santander_travel.main.MainActivity
+import com.acparra.santander_travel.ui.main.MainActivity
 import com.acparra.santander_travel.model.PoiItem
 
 class ListFragment : Fragment() {
@@ -31,7 +31,9 @@ class ListFragment : Fragment() {
         println("hola")
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        listViewModel.loadMockPoisFromJSON(context?.assets?.open("ciudades.json"))
+        //listViewModel.loadMockPoisFromJSON(context?.assets?.open("ciudades.json"))
+
+        listViewModel.getPoiFromServer()
         listViewModel.onPoisLoaded.observe(viewLifecycleOwner, { result ->
             onPoisLoadedSubscribe(result)
         })

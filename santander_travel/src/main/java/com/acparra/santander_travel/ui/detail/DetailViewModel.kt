@@ -1,4 +1,4 @@
-package com.acparra.santander_travel.detail
+package com.acparra.santander_travel.ui.detail
 
 import androidx.lifecycle.ViewModel
 

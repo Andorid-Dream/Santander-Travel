@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import com.acparra.santander_travel.R
-import com.acparra.santander_travel.detail.DetailFragmentArgs
+import com.acparra.santander_travel.ui.detail.DetailFragmentArgs
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.OnMapReadyCallback

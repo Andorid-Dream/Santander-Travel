@@ -1,4 +1,4 @@
-package com.acparra.santander_travel.detail
+package com.acparra.santander_travel.ui.detail
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.acparra.santander_travel.databinding.FragmentDetailBinding
-import com.acparra.santander_travel.main.MainActivity
+import com.acparra.santander_travel.ui.main.MainActivity
 import com.squareup.picasso.Picasso
 
 class DetailFragment : Fragment() {

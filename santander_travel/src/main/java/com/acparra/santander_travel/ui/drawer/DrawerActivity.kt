@@ -1,4 +1,4 @@
-package com.acparra.santander_travel.drawer
+package com.acparra.santander_travel.ui.drawer
 
 import android.os.Bundle
 import android.view.Menu
