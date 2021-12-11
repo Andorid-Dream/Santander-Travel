@@ -20,7 +20,7 @@ class ListViewModel : ViewModel() {
 
     fun getPoiFromServer(){
         GlobalScope.launch (Dispatchers.IO ) {
-            poisLoad.value = repository.getPoi()
+            poisLoad.postValue(repository.getPoi())
         }
     }
 

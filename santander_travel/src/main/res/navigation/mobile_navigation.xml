@@ -35,7 +35,7 @@
         android:label="SettingsFragment" />
     <fragment
         android:id="@+id/mapsFragment"
-        android:name="com.acparra.santander_travel.maps.MapsFragment"
+        android:name="com.acparra.santander_travel.ui.maps.MapsFragment"
         android:label="fragment_maps"
         tools:layout="@layout/fragment_maps" >
         <argument

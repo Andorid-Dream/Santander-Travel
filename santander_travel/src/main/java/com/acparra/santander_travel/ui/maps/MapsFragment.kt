@@ -1,4 +1,4 @@
-package com.acparra.santander_travel.maps
+package com.acparra.santander_travel.ui.maps
 
 import androidx.fragment.app.Fragment
 
