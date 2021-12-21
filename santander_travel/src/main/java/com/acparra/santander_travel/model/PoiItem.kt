@@ -8,9 +8,9 @@ data class PoiItem(
     @SerializedName("generalInformation")
     val generalInformation: String,
     @SerializedName("latitude")
-    val latitude: Float,
+    val latitude: Double,
     @SerializedName("longitude")
-    val longitude: Float,
+    val longitude: Double,
     @SerializedName("name")
     val name: String,
     @SerializedName("recommendedSites")
